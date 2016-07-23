@@ -1,0 +1,27 @@
+{
+  "name": "dartboard",
+  "version": "1.0.0",
+  "description": "Dartboard built with D3 using eventing for throws",
+  "main": "src/dartboard.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bmcallis/dartboardjs.git"
+  },
+  "keywords": [
+    "darts",
+    "dartboard",
+    "d3"
+  ],
+  "author": "Brandon McAllister <brandon@insomniacisland.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/bmcallis/dartboardjs/issues"
+  },
+  "homepage": "https://gitlab.com/bmcallis/dartboardjs#README"
+}
