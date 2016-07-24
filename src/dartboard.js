@@ -1,9 +1,5 @@
-import { select } from 'd3-selection'
-import { arc, pie } from 'd3-shape'
-
+import * as d3 from './d3'
 import './dartboard.css'
-
-const d3 = { select, arc, pie }
 
 const defaultOptions = {
     size: null,
