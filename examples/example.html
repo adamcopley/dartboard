@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Dartboard App Demo</title>
+    </head>
+    <body>
+        <div id="dartboard" style="width:300px; height: 300px;"></div>
+
+        <script src="../build/dartboard.js"></script>
+        <script>
+            var dartboard = new Dartboard('#dartboard');
+            dartboard.render();
+
+            document.querySelector('#dartboard').addEventListener('throw', function(d) {
+                console.log(d.detail);
+            });
+        </script>
+    </body>
+</html>
