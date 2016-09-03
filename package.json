@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/bmcallis/dartboardjs.git"
+    "url": "git+https://gitlab.com/bmcallis/dartboard.git"
   },
   "keywords": [
     "darts",
@@ -26,9 +26,9 @@
   "author": "Brandon McAllister <brandon@insomniacisland.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/bmcallis/dartboardjs/issues"
+    "url": "https://gitlab.com/bmcallis/dartboard/issues"
   },
-  "homepage": "https://gitlab.com/bmcallis/dartboardjs#README",
+  "homepage": "https://gitlab.com/bmcallis/dartboard#README",
   "devDependencies": {
     "babel": "6.5.2",
     "babel-core": "6.14.0",
