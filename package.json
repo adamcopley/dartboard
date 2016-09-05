@@ -1,6 +1,6 @@
 {
   "name": "dartboard",
-  "version": "1.0.1-beta.1",
+  "version": "1.0.1",
   "description": "Dartboard built with D3 using eventing for throws",
   "main": "src/dartboard.js",
   "directories": {
