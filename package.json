@@ -7,13 +7,16 @@
     "example": "examples"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "preversion": "npm run validate",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm run clean",
     "clean": "rimraf dist",
     "lint": "eslint ./",
     "lint:fix": "eslint --fix ./",
     "prebuild": "npm run clean",
     "build": "webpack --env.prod",
-    "dev": "webpack-dashboard -- webpack-dev-server --env.dev"
+    "dev": "webpack-dashboard -- webpack-dev-server --env.dev",
+    "validate": "npm run lint"
   },
   "repository": {
     "type": "git",
