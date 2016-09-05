@@ -2,6 +2,7 @@ module.exports = {
     extends: 'eslint:recommended',
     env: {
         browser: true,
+        commonjs: true,
         es6: true,
     },
     parserOptions: {
@@ -15,6 +16,5 @@ module.exports = {
         quotes: ['error', 'single'],
         'no-underscore-dangle': ['off'],
         semi: ['error', 'never'],
-
     },
 }
