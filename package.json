@@ -7,6 +7,8 @@
     "example": "examples"
   },
   "scripts": {
+    "prepublish": "npm run validate && npm run build",
+    "postpublish": "npm run clean",
     "preversion": "npm run validate",
     "version": "npm run build",
     "postversion": "git push && git push --tags && npm run clean",
