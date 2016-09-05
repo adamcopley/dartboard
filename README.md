@@ -1,7 +1,7 @@
 # Dartboard
 A library to add a dartboard to a web app. The board is built with D3 and fires events when a bed is clicked.
 
-![demo](docs/dartboard-demo.gif)
+![demo](http://gitlab.com/bmcallis/dartboard/raw/56d5d54/docs/dartboard-demo.gif)
 
 ## Usage
 ```
